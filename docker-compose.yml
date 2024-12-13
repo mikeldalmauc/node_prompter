@@ -9,11 +9,13 @@ services:
     #     - backend
     networks:
       - api
+      
   # backend:
   #   build:
   #     context: backend
   #   networks:
   #     - api
+  
 networks:
   api:
     driver: bridge

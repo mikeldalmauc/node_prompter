@@ -11,9 +11,10 @@ ARG VITE_BACKEND_URL
 # expose the variable to the finished cotainer
 ENV VITE_BACKEND_URL=$VITE_BACKEND_URL
 
-COPY package.json ./package.json
+COPY package*.json ./package.json
 
 RUN npm install
+
 
 # use a more specific COPY, as this will include files like `Dockerfile`, we don't really need inside our containers.
 COPY . ./
