@@ -1,0 +1,19 @@
+services:
+  frontend:
+    image: prod
+    build:
+      context: ./frontend
+    ports:
+      - "80:80"
+    # depends_on:
+    #     - backend
+    networks:
+      - api
+  # backend:
+  #   build:
+  #     context: backend
+  #   networks:
+  #     - api
+networks:
+  api:
+    driver: bridge
