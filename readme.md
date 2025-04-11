@@ -21,6 +21,6 @@ luego:
 docker compose up
 ```
 
-# Preview del ptoyecto
+# Preview del proyecto
 
-![](docimages/20250411125500.png)
+![Imagen de un editor de nodos web](propuesta/docimages/20250411125500.png)
