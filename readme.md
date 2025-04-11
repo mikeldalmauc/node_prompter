@@ -23,4 +23,4 @@ docker compose up
 
 # Preview del ptoyecto
 
-![](doc/20250411125500.png)
+![](docimages/20250411125500.png)
