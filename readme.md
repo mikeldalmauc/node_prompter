@@ -1,6 +1,6 @@
 # Boilerplate Vue baklavajs
 
-Este es un entorno de desarrollo para una aplicación Vue utilizando BaklavaJS como librería de editor de nodos.
+Este es un entorno de desarrollo para una aplicación Vue utilizando BaklavaJS como librería de editor de nodos. Ver la [propuesta de proyecto aquí](/propuesta/prompt.md).
 
 - Vue 3
 - BaklavaJS
